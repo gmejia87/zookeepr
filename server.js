@@ -68,7 +68,6 @@ function createNewAnimal(body, animalsArray) {
     path.join(_dirname, "./data/animals.json"),
     JSON.stringify({ animals: animalsArray }, null, 2)
   );
-  console.log(animalsArray);
   //return finished code to post route for response
   return animal;
 }
